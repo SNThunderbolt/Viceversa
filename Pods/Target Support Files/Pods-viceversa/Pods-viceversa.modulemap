@@ -1,0 +1,6 @@
+framework module Pods_viceversa {
+  umbrella header "Pods-viceversa-umbrella.h"
+
+  export *
+  module * { export * }
+}

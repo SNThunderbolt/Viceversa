@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA8E7953393CCC6EE48AB0B /* Pods_viceversa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A1B79EC870443D3AD7415C /* Pods_viceversa.framework */; };
+		9C41CE6520C3ED7700B4032A /* VictoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41CE6420C3ED7700B4032A /* VictoryVC.swift */; };
+		9C41CE6C20C3F05100B4032A /* AnimationDirectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41CE6720C3F05000B4032A /* AnimationDirectionType.swift */; };
+		9C41CE6D20C3F05100B4032A /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41CE6820C3F05000B4032A /* AnimationType.swift */; };
+		9C41CE6E20C3F05100B4032A /* AnimationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41CE6920C3F05000B4032A /* AnimationConfiguration.swift */; };
+		9C41CE6F20C3F05100B4032A /* OtherExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41CE6A20C3F05000B4032A /* OtherExtensions.swift */; };
+		9C41CE7020C3F05100B4032A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C41CE6B20C3F05100B4032A /* UIViewExtension.swift */; };
+		9CDBDD5B20C3A8E100786658 /* HighScore+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDBDD5920C3A8E000786658 /* HighScore+CoreDataProperties copy.swift */; };
+		9CDBDD5C20C3A8E100786658 /* HighScore+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDBDD5A20C3A8E100786658 /* HighScore+CoreDataClass copy.swift */; };
 		D1970A8B20B86E6B00E80FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1970A8A20B86E6B00E80FFA /* AppDelegate.swift */; };
 		D1970A8D20B86E6B00E80FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1970A8C20B86E6B00E80FFA /* ViewController.swift */; };
 		D1970A9020B86E6B00E80FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1970A8E20B86E6B00E80FFA /* Main.storyboard */; };
 		D1970A9320B86E6B00E80FFA /* viceversa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1970A9120B86E6B00E80FFA /* viceversa.xcdatamodeld */; };
 		D1970A9520B86E6D00E80FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1970A9420B86E6D00E80FFA /* Assets.xcassets */; };
 		D1970A9820B86E6D00E80FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1970A9620B86E6D00E80FFA /* LaunchScreen.storyboard */; };
+		D1C9FED820C3027C00226170 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9FED720C3027C00226170 /* HelpVC.swift */; };
+		D1C9FEDA20C3043100226170 /* PersistentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9FED920C3043100226170 /* PersistentService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90A1B79EC870443D3AD7415C /* Pods_viceversa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viceversa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C41CE6420C3ED7700B4032A /* VictoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryVC.swift; sourceTree = "<group>"; };
+		9C41CE6720C3F05000B4032A /* AnimationDirectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDirectionType.swift; sourceTree = "<group>"; };
+		9C41CE6820C3F05000B4032A /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		9C41CE6920C3F05000B4032A /* AnimationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationConfiguration.swift; sourceTree = "<group>"; };
+		9C41CE6A20C3F05000B4032A /* OtherExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExtensions.swift; sourceTree = "<group>"; };
+		9C41CE6B20C3F05100B4032A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9CDBDD5920C3A8E000786658 /* HighScore+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HighScore+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		9CDBDD5A20C3A8E100786658 /* HighScore+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HighScore+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		A107ACA3B1195F669DBE07B4 /* Pods-viceversa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viceversa.release.xcconfig"; path = "Pods/Target Support Files/Pods-viceversa/Pods-viceversa.release.xcconfig"; sourceTree = "<group>"; };
+		CC5A785B771AB9C1E54C4C0B /* Pods-viceversa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viceversa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viceversa/Pods-viceversa.debug.xcconfig"; sourceTree = "<group>"; };
 		D1970A8720B86E6B00E80FFA /* viceversa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viceversa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1970A8A20B86E6B00E80FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1970A8C20B86E6B00E80FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +46,8 @@
 		D1970A9420B86E6D00E80FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1970A9720B86E6D00E80FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1970A9920B86E6D00E80FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C9FED720C3027C00226170 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		D1C9FED920C3043100226170 /* PersistentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA8E7953393CCC6EE48AB0B /* Pods_viceversa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B6ED8335856779B08F18A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC5A785B771AB9C1E54C4C0B /* Pods-viceversa.debug.xcconfig */,
+				A107ACA3B1195F669DBE07B4 /* Pods-viceversa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C41CE6620C3F01F00B4032A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9C41CE6920C3F05000B4032A /* AnimationConfiguration.swift */,
+				9C41CE6720C3F05000B4032A /* AnimationDirectionType.swift */,
+				9C41CE6820C3F05000B4032A /* AnimationType.swift */,
+				9C41CE6A20C3F05000B4032A /* OtherExtensions.swift */,
+				9C41CE6B20C3F05100B4032A /* UIViewExtension.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9C41CE7120C3F0E500B4032A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1970A8C20B86E6B00E80FFA /* ViewController.swift */,
+				D1C9FED720C3027C00226170 /* HelpVC.swift */,
+				9C41CE6420C3ED7700B4032A /* VictoryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6FDC85FB34F6C26CA4E5930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90A1B79EC870443D3AD7415C /* Pods_viceversa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1970A7E20B86E6B00E80FFA = {
 			isa = PBXGroup;
 			children = (
+				9CDBDD5920C3A8E000786658 /* HighScore+CoreDataProperties copy.swift */,
+				9CDBDD5A20C3A8E100786658 /* HighScore+CoreDataClass copy.swift */,
 				D1970A8920B86E6B00E80FFA /* viceversa */,
 				D1970A8820B86E6B00E80FFA /* Products */,
+				4B6ED8335856779B08F18A33 /* Pods */,
+				A6FDC85FB34F6C26CA4E5930 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +125,14 @@
 			isa = PBXGroup;
 			children = (
 				D1970A8A20B86E6B00E80FFA /* AppDelegate.swift */,
-				D1970A8C20B86E6B00E80FFA /* ViewController.swift */,
+				D1C9FED920C3043100226170 /* PersistentService.swift */,
 				D1970A8E20B86E6B00E80FFA /* Main.storyboard */,
 				D1970A9420B86E6D00E80FFA /* Assets.xcassets */,
 				D1970A9620B86E6D00E80FFA /* LaunchScreen.storyboard */,
 				D1970A9920B86E6D00E80FFA /* Info.plist */,
 				D1970A9120B86E6B00E80FFA /* viceversa.xcdatamodeld */,
+				9C41CE7120C3F0E500B4032A /* Controller */,
+				9C41CE6620C3F01F00B4032A /* SupportingFiles */,
 			);
 			path = viceversa;
 			sourceTree = "<group>";
@@ -74,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1970A9C20B86E6D00E80FFA /* Build configuration list for PBXNativeTarget "viceversa" */;
 			buildPhases = (
+				BF274DA5CC5A681F02CE9177 /* [CP] Check Pods Manifest.lock */,
 				D1970A8320B86E6B00E80FFA /* Sources */,
 				D1970A8420B86E6B00E80FFA /* Frameworks */,
 				D1970A8520B86E6B00E80FFA /* Resources */,
+				4458D408543A44220021F806 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +205,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4458D408543A44220021F806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-viceversa/Pods-viceversa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viceversa/Pods-viceversa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF274DA5CC5A681F02CE9177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-viceversa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1970A8320B86E6B00E80FFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C41CE6C20C3F05100B4032A /* AnimationDirectionType.swift in Sources */,
 				D1970A8D20B86E6B00E80FFA /* ViewController.swift in Sources */,
+				D1C9FED820C3027C00226170 /* HelpVC.swift in Sources */,
+				9CDBDD5B20C3A8E100786658 /* HighScore+CoreDataProperties copy.swift in Sources */,
+				9C41CE6520C3ED7700B4032A /* VictoryVC.swift in Sources */,
+				D1C9FEDA20C3043100226170 /* PersistentService.swift in Sources */,
+				9C41CE6F20C3F05100B4032A /* OtherExtensions.swift in Sources */,
 				D1970A8B20B86E6B00E80FFA /* AppDelegate.swift in Sources */,
+				9CDBDD5C20C3A8E100786658 /* HighScore+CoreDataClass copy.swift in Sources */,
+				9C41CE7020C3F05100B4032A /* UIViewExtension.swift in Sources */,
+				9C41CE6D20C3F05100B4032A /* AnimationType.swift in Sources */,
+				9C41CE6E20C3F05100B4032A /* AnimationConfiguration.swift in Sources */,
 				D1970A9320B86E6B00E80FFA /* viceversa.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +403,13 @@
 		};
 		D1970A9D20B86E6D00E80FFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5A785B771AB9C1E54C4C0B /* Pods-viceversa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K43NQLV6G2;
 				INFOPLIST_FILE = viceversa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +423,13 @@
 		};
 		D1970A9E20B86E6D00E80FFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A107ACA3B1195F669DBE07B4 /* Pods-viceversa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K43NQLV6G2;
 				INFOPLIST_FILE = viceversa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
